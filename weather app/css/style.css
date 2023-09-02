@@ -1,0 +1,120 @@
+/* Goolge font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body part start*/
+body{
+    background-color: #DDEE;
+}
+/* body part end*/
+
+/* Search section css start */
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #b99595a3, #D82B44);
+    color: #fff;
+    margin: 40px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+/* Search section css end */
+
+/* Weather information css start */
+.weather-icon{
+   width: 170px;
+   margin-top: 30px; 
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+/* Weather information css end */
+
+/* Invalid city name css start */
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+/* Invalid city name css end */
